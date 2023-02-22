@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>de.adesso</groupId>
-	<artifactId>beanvalidation</artifactId>
+	<artifactId>testing</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>beanvalidation</name>
 	<description>Demo project for Spring Boot and Bean Validation</description>
@@ -50,6 +50,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 	</dependencies>
 
